@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{502AF51D-843E-43C3-90D8-FE9DE26CFF10}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CSharp_Tutorials</RootNamespace>
+    <AssemblyName>CSharp_Tutorials</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="T42CustomExeptionsSerialable.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="T15ForAndForeachLOOP.cs" />
+    <Compile Include="T16Methods.cs" />
+    <Compile Include="T17MethodsTypes.cs" />
+    <Compile Include="T18NameSpaces.cs" />
+    <Compile Include="T19Classes.cs" />
+    <Compile Include="T20StaticVSInstanceClasses.cs" />
+    <Compile Include="T21Inheritance.cs" />
+    <Compile Include="T22MethodHiding.cs" />
+    <Compile Include="T23Polymorphisms.cs" />
+    <Compile Include="T24andT25MethodoverLoading.cs" />
+    <Compile Include="T26Properties.cs" />
+    <Compile Include="T27SetandGETProperties.cs" />
+    <Compile Include="T28Structures.cs" />
+    <Compile Include="T29ClassesVSStructures.cs" />
+    <Compile Include="T30Interfaces.cs" />
+    <Compile Include="T31ExplicitlyInterFace.cs" />
+    <Compile Include="T32AbstractClasses.cs" />
+    <Compile Include="T33InterfacesVSAbstractClasses.cs" />
+    <Compile Include="T34ProblemInMultipleInheritance.cs" />
+    <Compile Include="T35MultipleInheritanceUsingInterface.cs" />
+    <Compile Include="T36Delegats.cs" />
+    <Compile Include="T37DelegatesUsage.cs" />
+    <Compile Include="T39MultiCastDelegates.cs" />
+    <Compile Include="T40ExeptionHandling.cs" />
+    <Compile Include="T41InnerExaption.cs" />
+    <Compile Include="T43ExepHandlingAbuse.cs" />
+    <Compile Include="T44ExpHandlingAbuseSolved.cs" />
+    <Compile Include="T45WhyEnums.cs" />
+    <Compile Include="T8Arrays.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
